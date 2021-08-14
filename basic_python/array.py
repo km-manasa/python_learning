@@ -1,11 +1,29 @@
 from array import *
 
-arr = array('i', [])
+a = array('i', [])
 n = int(input("Enter the length of the array"))
 for i in range(n):
     x = int(input("Enter the next value"))
-    arr.append(x)
+    a.append(x)
 
-print(arr)
+print(a)
+
+val=int(input("Enter the value for search"))
+k=0
+for e in a:
+    if e==val:
+        print(k)
+        break
+    k+=1
+
+
+
+
+
+
+
+
+
+
 
 
